@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
+	<classpathentry kind="src" path="/cassandra-trunk">
+		<attributes>
+			<attribute name="org.eclipse.ajdt.inpath" value="org.eclipse.ajdt.inpath"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/libthrift-0.9.0.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/guava-13.0.1.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/concurrentlinkedhashmap-lru-1.3.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/build/lib/jars/jna-3.2.7.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/metrics-core-2.0.3.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/jline-1.0.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/antlr-3.2.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/avro-1.4.0-fixes.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/avro-1.4.0-sources-fixes.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/commons-codec-1.2.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/compress-lzf-0.8.4.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/cql-internal-only-1.4.0.zip"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/high-scale-lib-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/jackson-core-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/jamm-0.2.5.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/netty-3.5.9.Final.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/snakeyaml-1.6.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/snappy-java-1.0.4.1.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/snaptree-0.1.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/lib/thrift-python-internal-only-0.7.0.zip"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/build/lib/jars/hadoop-core-1.0.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/build/lib/jars/pig-0.10.0.jar"/>
+	<classpathentry kind="lib" path="/cassandra-trunk/build/classes"/>
+	<classpathentry kind="src" path="/SimpleHashStore">
+		<attributes>
+			<attribute name="org.eclipse.ajdt.inpath" value="org.eclipse.ajdt.inpath"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
