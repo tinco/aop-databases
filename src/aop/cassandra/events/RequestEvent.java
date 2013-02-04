@@ -1,4 +1,4 @@
-package aop.cassandra;
+package aop.cassandra.events;
 import aop.events.*;
 
 public class RequestEvent extends aop.events.RequestEvent {

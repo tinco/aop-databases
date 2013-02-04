@@ -4,6 +4,7 @@ import org.apache.cassandra.thrift.InvalidRequestException;
 import org.apache.thrift.ProcessFunction;
 import org.apache.thrift.TException;
 
+import aop.cassandra.events.RequestEvent;
 import aop.events.*;
 import aop.events.Events.Result;
 

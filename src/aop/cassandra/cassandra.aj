@@ -7,5 +7,6 @@ public aspect cassandra {
 	before(): main() {
 		System.out.println("Installing aspects");
 		aop.monitoring.Requests.installRequestPerformanceMonitor();
+		aop.monitoring.Clients.installClientConnectionsMonitor();
 	}
 }
