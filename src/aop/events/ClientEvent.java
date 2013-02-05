@@ -1,10 +1,9 @@
 package aop.events;
 
-import org.apache.cassandra.thrift.ThriftClientState;
 
 public class ClientEvent {
-	public ThriftClientState client;
-	public ClientEvent(ThriftClientState client) {
+	public Object client;
+	public ClientEvent(Object client) {
 		this.client = client;
 	}
 }
